@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", 
+    "jsx": "react",
+    "strict": true,
+    "noEmitOnError": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "module": "node16",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ink-example",
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn run build && node dist/index.js"
+  },
+  "keywords": [
+    "react",
+    "cli",
+    "ink"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ink": "^4.4.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
